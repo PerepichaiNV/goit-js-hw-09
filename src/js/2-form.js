@@ -19,7 +19,7 @@ if (savedData) {
 
 form.addEventListener('input', (event) => {
   const { name, value } = event.target;
-  formData[name] = value.trimStart(); // Зберігаємо без зайвих пробілів зліва
+  formData[name] = value.trimStart(); 
   localStorage.setItem(STORAGE_KEY, JSON.stringify(formData));
 });
 
