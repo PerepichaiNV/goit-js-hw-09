@@ -90,5 +90,5 @@ galleryContainer.innerHTML = galleryMarkup;
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionPosition: 'bottom',
-  captionDelay: 200,
+  captionDelay: 250,
 });
